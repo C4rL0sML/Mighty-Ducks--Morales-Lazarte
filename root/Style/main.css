@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+h1{
+    font-size: 25px;
+    font-family: cursive;
+}
+    
+h1,a{
+    display: inline;
+    margin-top: 20px;
+}
+
+nav{
+    width: 100%;
+    /* border: 3px solid blue; */
+    padding: 0%;
+}
+
+nav div{
+    margin-left: 90%;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: end;
+        
+}
+
+div a{
+    color: aliceblue;
+    border: 1.5px solid black;
+    background-color: rgb(75, 75, 251);
+    font-size: 80%;
+    font-family: cursive;
+    padding: 0px 10px;
+    margin: 0px 5px;
+    text-decoration: none;
+    transform: translate(-110px, 10px);
+}
+
+a{
+    box-shadow: 2px 2px rgba(56, 53, 53, 0.652);
+    z-index: 2;
+}
+
+.nav1{
+    background-color: #3ea123;
+}
+
+.hockey{
+    /* border: 1px solid; color: black; */
+    width: 100%;
+    height: 30vh;
+    padding: 0% 20%;
+    object-fit: cover;
+    /* object-position: 0px -50px; */
+}
+
+/* .div2{
+    padding: 10px;
+    margin: 20%;
+    display: inline;
+} */
+
+#logo{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+}
+
+h2{
+    width: 60%;
+    /* height: 10%; */
+    border: 1px solid black;
+    text-align: center; 
+    margin: 0% 20%;
+}
+
+.seccion{
+    /* border: 1px solid black; */
+    display: inline-block;
+    /* margin: 5% 0%; */
+    height: 0px;
+}
+
+section{
+    /* border: 1px solid black; */
+    height: 80px;
+margin-top: 10px;
+}
+
+p,h3{
+
+  margin-left: 15%;
+}

@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+    /* border: 1px solid black; */
+    margin: 5px;
+}
+
+body{
+    background-color: rgb(246, 246, 237);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif  ;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    font-size: 12px;
+}
+
+main{
+    margin: 30px;
+}
+
+section{
+    margin: 30px 0px;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+p{
+    text-indent: 40px;
+}
+
+span{
+    font-weight: bold;
+}
+
+ol{
+    padding-left: 15px;
+}
+
+.ol3{
+    padding-left: 0;
+    margin-left: 0; 
+    list-style: lower-alpha;   
+}
+
+ul{
+    list-style: circle;
+    padding-left: 50px;
+    text-indent: 20px;
+}
+
+p, ol, ul{
+    font-size: 20px;
+}
+

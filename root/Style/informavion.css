@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+    margin: 10px 20px;
+}
+
+h1{
+    font-family: cursive;
+    text-align: center;
+}
+
+h2{
+    font-size: 100%;
+}
+
+.sub{
+    text-decoration: underline;
+}
+
+body{
+    background-color: rgb(246, 246, 237);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif  ;
+    margin: 0;
+}
+
+table{
+    width: 70%;
+    margin: 7% auto;
+}
+
+.bold{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+th{
+    text-align: start;
+    font-size: 1%;
+}
+
+.fecha{
+    text-align: center;
+}
+
+table, tr, th{
+    padding: .7%;
+    font-size: 12px;
+    border: 2px groove;
+    border-collapse: collapse
+}
+
+p{
+    text-align: start;
+    font-size: 90%;
+}
+
+span{
+    margin: 0;
+    font-weight: bold;
+    
+}
+
+#pf{
+    margin-top: 10%;
+}
+
+a{
+    margin: 0;
+    padding: 0;
+}
+
+.contacto{
+    display: inline;
+}
+
+a:hover{
+    text-decoration: aliceblue;
+}
+

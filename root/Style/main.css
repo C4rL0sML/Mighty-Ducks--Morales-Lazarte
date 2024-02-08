@@ -1,12 +1,19 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;  
+    box-sizing: border-box;
+    font-size: 110%;
+    /* border: 1px solid black;   */
+}
+
+header{
+    margin: 3%;
+    font-size: 12px;
+    font-family: cursive;
 }
 
 h1{
-    font-size: 25px;
-    font-family: cursive;
+    font-size: 280%;
 }
     
 h1,a{
@@ -58,17 +65,10 @@ a{
     /* object-position: 0px -50px; */
 }
 
-/* .div2{
-    padding: 10px;
-    margin: 20%;
-    display: inline;
-} */
-
 #logo{
     width: 60px;
     height: 60px;
-    margin-bottom: 60px;
-    margin-right: 20px;
+    margin: 1%;
 }
 
 h2{
@@ -79,20 +79,17 @@ h2{
     margin: 0% 20%;
 }
 
-.seccion{
-    /* border: 1px solid black; */
+div{
+    margin: 3%;
     display: inline-block;
-    /* margin: 5% 0%; */
-    height: 0px;
 }
 
-section{
-    /* border: 1px solid black; */
-    height: 80px;
-margin-top: 10px;
+p{
+  padding-left: 15%;
 }
 
-p,h3{
-
-  margin-left: 15%;
+.t{
+    font-weight: bolder;
+    padding-left: 15%;
+    font-size: 120%;
 }
